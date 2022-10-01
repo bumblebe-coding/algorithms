@@ -17,6 +17,7 @@ void insertionSort(int* arr, int size){
 }
 
 int main(){
+    //the main driver code which takes the array as an input and prints the sorted array:
     int n;
     cout<<"enter the number of elements in the array: "<<endl;
     cin>>n;
