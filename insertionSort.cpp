@@ -1,6 +1,9 @@
 #include<bits/stdc++.h>
 using namespace std;
 
+//whenever we create a function using an array as an argument, we need to give the array size also. As when we pass the arguement, the function only knows the starting
+//address of the array, not the size of the length of the array, so we need to specify the size in a second argument itself.
+
 void insertionSort(int* arr, int size){
 
     for(int i = 1; i < size; i++){//starts from the second element of the array
